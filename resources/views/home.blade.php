@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="description" content="Read, learn, publish, and find your people on OpenShelf.">
-    <title>OpenShelf — a world of ideas, shared</title>
+    <meta name="description" content="Discover free books, publish articles, explore learning resources, and join welcoming study communities on OpenShelf.">
+    <title>OpenShelf | Free Books, Learning and Study Communities</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <script defer src="{{ asset('js/app.js') }}"></script>
-</head>
+    <meta name="robots" content="index, follow"> <link rel="canonical" href="{{ url('/') }}"> <meta name="theme-color" content="#f7f4ee"> <meta property="og:type" content="website"> <meta property="og:title" content="OpenShelf | Free Books, Learning and Study Communities"> <meta property="og:description" content="Discover free books, publish articles, explore learning resources, and join welcoming study communities on OpenShelf."> <meta property="og:site_name" content="OpenShelf"> <meta property="og:url" content="{{ url('/') }}"> <meta property="og:locale" content="en_US"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="OpenShelf | Free Books, Learning and Study Communities"> <meta name="twitter:description" content="Discover free books, publish articles, explore learning resources, and join welcoming study communities on OpenShelf."> <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"OpenShelf","url":"{{ url('/') }}","description":"Discover free books, publish articles, explore learning resources, and join welcoming study communities on OpenShelf."}</script> <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"OpenShelf","url":"{{ url('/') }}"}</script> </head>
 <body id="top">
     <header class="topbar">
         <a class="brand" href="{{ route('home') }}" aria-label="OpenShelf home"><span class="brand-mark">o.</span><span>openshelf</span></a>
